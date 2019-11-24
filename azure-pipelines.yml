@@ -8,6 +8,10 @@ trigger:
 
 pool:
   vmImage: 'windows-latest'
+  name: 'demoAgentLaptop'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
 
 variables:
   buildConfiguration: 'Release'
