@@ -8,8 +8,7 @@ trigger:
 - master
 
 pool:
-  name: 'demoAgent'
-
+  
 variables:
   buildConfiguration: 'Release'
 
